@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+  background-color: #0b1120;
+  color: #e6edf7;
+  text-align: center;
+}
+
+/* Header */
+header {
+  background: linear-gradient(90deg, #003366, #0066cc);
+  padding: 20px;
+  color: #fff;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2rem;
+}
+
+header p {
+  font-size: 1.1rem;
+  opacity: 0.8;
+}
+
+/* Dashboard Section */
+.dashboard {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 40px;
+}
+
+.card {
+  background: #1b2436;
+  border-radius: 15px;
+  padding: 25px;
+  transition: transform 0.3s ease, background 0.3s ease;
+  box-shadow: 0 0 10px rgba(0,0,0,0.4);
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background: #24324d;
+}
+
+.card i {
+  font-size: 2rem;
+  color: #4facfe;
+}
+
+.card h2 {
+  margin: 10px 0;
+  color: #fff;
+}
+
+/* Status Section */
+.status {
+  background: #12203a;
+  padding: 30px;
+  border-top: 2px solid #1b2f55;
+}
+
+#status-text {
+  font-size: 1.1rem;
+  margin: 10px 0;
+}
+
+#checkBtn {
+  background: #007bff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background 0.3s ease;
+}
+
+#checkBtn:hover {
+  background: #0056b3;
+}
+
+/* Footer */
+footer {
+  background: #061020;
+  padding: 10px;
+  font-size: 0.9rem;
+  color: #aaa;
+}
